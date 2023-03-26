@@ -1,0 +1,7 @@
+name: anth3
+channels:
+  - bioconda
+dependencies:
+  - circos
+  - biopython>=1.78
+  - blast>=2.12.0

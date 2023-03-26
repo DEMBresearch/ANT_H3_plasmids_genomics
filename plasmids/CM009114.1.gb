@@ -1,0 +1,138 @@
+LOCUS       CM009114                2151 bp    DNA     circular CON 05-JAN-2018
+DEFINITION  Psychrobacter sp. 4Bb plasmid unnamed6, complete sequence, whole
+            genome shotgun sequence.
+ACCESSION   CM009114 PJAS01000000
+VERSION     CM009114.1
+DBLINK      BioProject: PRJNA420923
+            BioSample: SAMN08125736
+KEYWORDS    WGS.
+SOURCE      Psychrobacter sp. 4Bb
+  ORGANISM  Psychrobacter sp. 4Bb
+            Bacteria; Proteobacteria; Gammaproteobacteria; Moraxellales;
+            Moraxellaceae; Psychrobacter.
+REFERENCE   1  (bases 1 to 2151)
+  AUTHORS   Collins,E. and Ducluzeau,A.-L.
+  TITLE     Pharmacopeia of the Arctic Ocean
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2151)
+  AUTHORS   Collins,E. and Ducluzeau,A.-L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-DEC-2017) College of Fisheries and Ocean Sciences,
+            University of Alaska Fairbanks, 905 N Koyukuk Dr, Fairbanks, AK
+            99775, USA
+COMMENT     Bacteria available from Dr. Eric Collins, University of Alaska
+            Fairbanks.
+            Annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (released 2013). Information about the Pipeline can be
+            found here: https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Date          :: 15-NOV-2017
+            Assembly Method        :: Unicycler v. 0.3.1
+            Genome Representation  :: Full
+            Expected Final Version :: No
+            Genome Coverage        :: 13x
+            Sequencing Technology  :: Illumina MiSeq
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI
+            Annotation Date                   :: 12/07/2017 14:00:52
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS+
+            Annotation Software revision      :: 4.3
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 2,863
+            CDS (total)                       :: 2,813
+            Genes (coding)                    :: 2,759
+            CDS (coding)                      :: 2,759
+            Genes (RNA)                       :: 50
+            rRNAs                             :: 1, 1, 1 (5S, 16S, 23S)
+            complete rRNAs                    :: 1, 1, 1 (5S, 16S, 23S)
+            tRNAs                             :: 43
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 54
+            Pseudo Genes (ambiguous residues) :: 0 of 54
+            Pseudo Genes (frameshifted)       :: 15 of 54
+            Pseudo Genes (incomplete)         :: 30 of 54
+            Pseudo Genes (internal stop)      :: 17 of 54
+            Pseudo Genes (multiple problems)  :: 7 of 54
+            CRISPR Arrays                     :: 2
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2151
+                     /organism="Psychrobacter sp. 4Bb"
+                     /mol_type="genomic DNA"
+                     /strain="4Bb"
+                     /isolation_source="feces"
+                     /db_xref="taxon:888436"
+                     /plasmid="unnamed6"
+                     /collection_date="2002"
+     gene            complement(1057..1239)
+                     /locus_tag="CXF60_00385"
+     CDS             complement(1057..1239)
+                     /locus_tag="CXF60_00385"
+                     /inference="COORDINATES: ab initio prediction:GeneMarkS+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="PKH84207.1"
+                     /translation="MKIDVKTTCKYCEKPTIRTIPKRKKLKPDQKYYFTYYYKCTDYP
+                     KCRGIFHVEEAKVWVD"
+     gene            complement(1343..1531)
+                     /locus_tag="CXF60_00390"
+     CDS             complement(1343..1531)
+                     /locus_tag="CXF60_00390"
+                     /inference="COORDINATES: ab initio prediction:GeneMarkS+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="PKH84208.1"
+                     /translation="MHFLDENTPLWGLTLPRGNAKNKNKRKKQKMIVPMAKYEYTHHA
+                     TGCKRLKAMQVKGFSVGQ"
+ORIGIN      
+        1 ttggggcttt catagtaatt ccttatatat tgggtatata cggattatat actaagtcta
+       61 taaaacatca atggcgtctt aaaatatata cttggtatat acgttttata cactgtttat
+      121 atataaaatt ctttaaaagc ctttaaaaat aagggctgag cttatctatc tattcacatt
+      181 atgtttttta tcaaatatct ctacactcaa tctgctgatt gagtgctttt ttttatttgt
+      241 tttttttctt aaaagcctat gttatatagc ctagggggct atataacact tgacagagcc
+      301 taagttgttc tcatgctctt ggttcggctg ggttctgaaa tcagggaaca ctcaccctaa
+      361 aggactcaca gttgaaaaac tgcaaaccct ttagtgttgt taccttgacg gtgcttgctc
+      421 atgccctcgg cacgacttgg gacactcatc aggaggtcat cactgtatca agctgaccct
+      481 gttaagatta cggctgatag caccgcctag acacgctctt aaccgcgatt taagccgttc
+      541 ttacgcaagc aaggggtaaa ccccaatata ccgctacaga tacgcttaaa acgccactca
+      601 ttgcgttgct cttatccttt gtctagtcac ccctgtcggg agctttcgta tcacccacac
+      661 aatgcagtcg tcgctgatgc ctgccaccca ttgctaggga acagttagag gacgataggg
+      721 gcgatgtaac gatcaaatag ggagttaggc gttttatgta tttagacttg caaatcaggc
+      781 ggtgtgtgcc ttagaatacc cttaacgggc tatatgctgg tcaaataacg ctgtactaga
+      841 gcttatttgg tcgttacagt cgttccccaa cgtctgtaac cgttaacgaa tactaacgac
+      901 aaagccctta gcgtgtcaag cgttaagggc tttttctatg caaaattgtc caactattgt
+      961 ttgttttgct tgggctaagg tcgagtatta gccaagatca ggcggtcttt ttcgcctgtc
+     1021 ctggctaatg ctgacccaac aaccaaaggg cgttagttaa tctacccata ccttagcctc
+     1081 ttcgacatga aatatacccc tacacttagg gtaatcagtg catttgtagt agtacgtgaa
+     1141 gtaatatttt tggtctggtt ttagtttttt gcgctttggt attgtcctga ttgtaggctt
+     1201 ttcacaatat ttgcaggtcg ttttaacatc aattttcatt gttatacacc tcaaaataaa
+     1261 atcaccttgt ccgacacgga aacccttagc acaacaaggc taaggggtct ttttttgatg
+     1321 atttgtcgga cagtgtgcaa ggtcattgtc ctacactgaa accctttacc tgcatggctt
+     1381 taagtcgttt gcaaccagtt gcgtggtgtg tgtactcata tttagccatc ggcacgatca
+     1441 tcttttgctt ttttcttttg tttttgtttt ttgcattgcc cctaggcaat gttaagcccc
+     1501 aaaggggtgt gttttcgtcc agaaaatgca cagaccatca ccccaagtgt gggctgcgtg
+     1561 ggggagccga aatcgtggtg gcagtcgtcc agactagcca cagctgaccc ctagggctgc
+     1621 gatagatttt gggggtgaaa cccgccgtca gtaagcactg acctcgggcg ttttctttgc
+     1681 agccccaaaa aagggcaaaa aacgtacgag gtcagtggtt ttaccactgg cggccgccga
+     1741 gtaaatcgga acaacgtgga gatttgcgct ggaacgcagt ggaaggcaac tgaaaagcgg
+     1801 cagtgtggtc gtccagacca cgcaagacaa gggtagggcg ttcagcccgt tagccttgtc
+     1861 tggtgacgtt ttttaggcgc agcgaagcgt agtatgctct ttttggtgta taaactggtg
+     1921 tataaaatat tcagacaact ggtgattttc tgaaatcacc agattacaca ccagattaca
+     1981 caccacttta tgcactagag tcttaaagta gtttggcttg accatgcttt ttaacatagt
+     2041 cacgcataaa ggctctaaca gcttgtgatg cggtagtatc ttggttatcg caagcgtgtt
+     2101 taaaggcttt tagcaagttt tcatctactt ttgcagtgaa cagcttgtcc t
+//
+

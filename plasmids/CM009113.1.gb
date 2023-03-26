@@ -1,0 +1,185 @@
+LOCUS       CM009113                4227 bp    DNA     circular CON 05-JAN-2018
+DEFINITION  Psychrobacter sp. 4Bb plasmid unnamed5, complete sequence, whole
+            genome shotgun sequence.
+ACCESSION   CM009113 PJAS01000000
+VERSION     CM009113.1
+DBLINK      BioProject: PRJNA420923
+            BioSample: SAMN08125736
+KEYWORDS    WGS.
+SOURCE      Psychrobacter sp. 4Bb
+  ORGANISM  Psychrobacter sp. 4Bb
+            Bacteria; Proteobacteria; Gammaproteobacteria; Moraxellales;
+            Moraxellaceae; Psychrobacter.
+REFERENCE   1  (bases 1 to 4227)
+  AUTHORS   Collins,E. and Ducluzeau,A.-L.
+  TITLE     Pharmacopeia of the Arctic Ocean
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 4227)
+  AUTHORS   Collins,E. and Ducluzeau,A.-L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-DEC-2017) College of Fisheries and Ocean Sciences,
+            University of Alaska Fairbanks, 905 N Koyukuk Dr, Fairbanks, AK
+            99775, USA
+COMMENT     Bacteria available from Dr. Eric Collins, University of Alaska
+            Fairbanks.
+            Annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (released 2013). Information about the Pipeline can be
+            found here: https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Date          :: 15-NOV-2017
+            Assembly Method        :: Unicycler v. 0.3.1
+            Genome Representation  :: Full
+            Expected Final Version :: No
+            Genome Coverage        :: 13x
+            Sequencing Technology  :: Illumina MiSeq
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI
+            Annotation Date                   :: 12/07/2017 14:00:52
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS+
+            Annotation Software revision      :: 4.3
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 2,863
+            CDS (total)                       :: 2,813
+            Genes (coding)                    :: 2,759
+            CDS (coding)                      :: 2,759
+            Genes (RNA)                       :: 50
+            rRNAs                             :: 1, 1, 1 (5S, 16S, 23S)
+            complete rRNAs                    :: 1, 1, 1 (5S, 16S, 23S)
+            tRNAs                             :: 43
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 54
+            Pseudo Genes (ambiguous residues) :: 0 of 54
+            Pseudo Genes (frameshifted)       :: 15 of 54
+            Pseudo Genes (incomplete)         :: 30 of 54
+            Pseudo Genes (internal stop)      :: 17 of 54
+            Pseudo Genes (multiple problems)  :: 7 of 54
+            CRISPR Arrays                     :: 2
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4227
+                     /organism="Psychrobacter sp. 4Bb"
+                     /mol_type="genomic DNA"
+                     /strain="4Bb"
+                     /isolation_source="feces"
+                     /db_xref="taxon:888436"
+                     /plasmid="unnamed5"
+                     /collection_date="2002"
+     gene            10..1665
+                     /locus_tag="CXF60_00260"
+     CDS             10..1665
+                     /locus_tag="CXF60_00260"
+                     /inference="COORDINATES: protein motif:HMM:PF03389.13"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="PKH84808.1"
+                     /translation="MALYRAEVKPISRSKGHNAVAAAAYRAGEELTDKNKYNPNAMVH
+                     DYSKKSDIMHKNIILPAVLAEQDFKIDRENLWSMVEEHEVTKKDKTLKSSARVAREWL
+                     LALPHELSDSENIALAEEFATKMANDLGVIADCCIHNPKLKSNVPAPKPSSKAADNTT
+                     DDDDERNIHAHIMFTTRKAELDTTNQLIFTNKADSELDGTARKVKGLVKETEYIKAVR
+                     ADWAEMVNKRLLEHGIKTVSSLSYKDQDLYIIPKAHVGRDKYSDDKREHNTEVNDFNE
+                     RFFNKRADYLKKFADSGDRFLRVADELNGKYFNESGARNTSIADSERIIADSKQRIAN
+                     HARSTTPDPFIDAITRSNAARKSAATSYGQSAKAFDRASDDSIAAVRKLAGVSSQGIK
+                     QREPRVTQYAEYAKNTKIILINKILQRRKEENQIRLSWGESADDLEHAHKFDPRQLEI
+                     LNAFANKYQLDKSRSEPFEDVHERRLKLLNNDSFFQENTGIFDLVRDPKSEREIFNAR
+                     KLSDSRQSVLSKNSEVSYGEPSKGLNRANSELLIDNNVPRPRF"
+     gene            2011..2976
+                     /locus_tag="CXF60_00265"
+     CDS             2011..2976
+                     /locus_tag="CXF60_00265"
+                     /inference="COORDINATES: protein motif:HMM:PF01051.19"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="PKH84809.1"
+                     /translation="MKSDRGKNMSDLVVKSNRLNTAIQNLSLVEIRLIQIAIIDSRET
+                     QTGLTADSPLVISAKRYAECFNVEIDTAYDILLAAESTLFERRFSFVNQRDNQVKTRW
+                     VSQVEYIRGDGAIEIILTPAVVKEITRIDGIKDFFTKYTLGQTAVLNSVYSVRLYELL
+                     TQWRQATKTPLFDIETFRGQLGLGVSDYQRMSDFKRRVLDSAVAEINEKTDLQISYVQ
+                     EKKKSRIVGFKFKVSGKENSKNTLKASNRKGCNTADMFTVEGLSDKQIGRIARNAQFI
+                     ADYNHLVSSTSLAGQDPKAWELEMFNRLKKDASKFKKRPIRDYLN"
+ORIGIN      
+        1 acttaaatca tggctttata cagagcagaa gtgaaaccga tcagtcgtag caaagggcat
+       61 aatgcagttg ctgctgctgc gtatcgagca ggcgaagagc taacggataa aaacaaatac
+      121 aatcctaatg cgatggttca tgactacagc aagaagtcgg acatcatgca caagaatatt
+      181 attttgccag ctgtgttggc tgagcaagat ttcaaaattg accgtgaaaa cttgtggtca
+      241 atggttgaag aacatgaggt gactaagaaa gataagactc tcaaatcatc agctagggtc
+      301 gctcgtgaat ggttgttagc attacctcat gagttgagcg atagcgagaa catcgcattg
+      361 gcagaagagt ttgcgacaaa aatggcaaac gatttaggcg tgattgctga ttgctgtatt
+      421 cataacccca agctcaaaag caatgttcct gcgcctaagc cttcaagtaa ggcagccgac
+      481 aataccactg acgacgatga cgagcgcaat attcatgctc atatcatgtt taccactcgc
+      541 aaagccgagc tagatactac taatcagctg atattcacta acaaggctga ctcagagcta
+      601 gatggtacgg ctagaaaagt taaaggtttg gtaaaagaga ctgaatacat caaagcggta
+      661 cgtgcagact gggcagaaat ggttaataag cgactcttag agcacggtat taaaactgtt
+      721 agcagtctta gctataaaga ccaggattta tacatcatac caaaagcaca cgttggaagg
+      781 gataaatact cagatgacaa aagagagcac aacaccgaag ttaacgactt caatgagcgt
+      841 tttttcaata agagagctga ttatctcaag aagtttgccg acagcggaga tagatttctt
+      901 agagtcgcag atgaactcaa tggcaaatac tttaacgagt caggagcaag aaatacaagc
+      961 attgcagaca gtgaacgcat cattgcagac agtaaacaaa gaattgcaaa tcatgctcga
+     1021 tcaaccaccc ctgatccctt tattgacgca atcacaagaa gcaatgctgc aagaaaatca
+     1081 gcagctacta gctatggtca atcagcaaaa gcgtttgata gagcatcaga cgactcaatt
+     1141 gcagcagttc gaaaacttgc aggagtctct agtcaaggaa ttaaacaacg agaaccaaga
+     1201 gttactcaat acgctgagta cgctaaaaac actaagataa tcttaatcaa taaaatacta
+     1261 caacgacgca aagaggagaa tcagatacgt ttgtcttggg gtgaaagtgc agatgatcta
+     1321 gaacatgcac ataaatttga tcctcggcag ctagaaatac taaatgcttt tgccaacaag
+     1381 taccaattgg ataaaagcag gagtgaacct tttgaggatg ttcatgaaag acggttaaag
+     1441 ctgctgaata acgatagttt ctttcaagaa aatactggga tttttgattt agtgcgtgat
+     1501 ccaaagtcag aacgagaaat attcaatgct agaaagctct cagatagccg tcagagcgtt
+     1561 ctaagtaaaa atagtgaagt tagctacggt gaaccatcta aaggcttaaa cagagccaat
+     1621 agcgaacttt taatagacaa taatgtacct agaccaaggt tttaatattt ttcgatttat
+     1681 tagttaatac taagtgtcat tcttggtttt tcgttattta tcttttgtct tttaatcatc
+     1741 tattaacaac aaaaaaggct tttaatgctt ttaatgcttt taaaggcttt taagagagct
+     1801 gtatccctta cgcaccaatg gatacgaatg agtgatgacg acatctatcg ggtatgatga
+     1861 cgacatctat cgggtatgat gacgacatct atcgggtatg atgacgacat ctatcgggta
+     1921 tgatgacgac aaaaaaatat ttgacttgat tacaaggttt gtgtagtttg ttctcatcga
+     1981 tctaataaaa accactaaag agactcaatt atgaaatctg atagaggaaa gaatatgagt
+     2041 gacttggtgg ttaagtctaa tcgcttgaat acagctatac aaaacctatc attggttgaa
+     2101 attagattaa tacaaatcgc aattattgat agcagggaaa cacagactgg actaacggca
+     2161 gatagccctc tagttatctc tgctaaacgt tatgcggagt gttttaacgt agaaatagat
+     2221 actgcttatg atattctctt ggcagcagaa tcgacgcttt ttgaacgtcg tttttctttc
+     2281 gtgaatcaaa gagataatca ggtaaaaaca cgttgggtaa gtcaagtcga atacattaga
+     2341 ggcgatggtg caattgaaat aatactaacg cccgcagttg tcaaggaaat aacccgcatc
+     2401 gacggtataa aagatttctt tactaaatat acgctaggac agacagctgt gcttaacagc
+     2461 gtgtattcag tgcgtctgta tgaactgctc acacagtggc gtcaagctac caaaacacct
+     2521 ctttttgata ttgaaacctt tagaggtcag ttgggcttag gagttagtga ttatcaacgt
+     2581 atgagtgact ttaagcgccg agttcttgat tcagctgttg cggagatcaa tgagaaaaca
+     2641 gatttgcaga taagctatgt tcaggaaaag aaaaagagca ggattgtagg gtttaagttt
+     2701 aaagtttcgg gaaaagaaaa ctcaaaaaac actttaaaag caagtaatag aaagggctgt
+     2761 aatacagcag atatgttcac agtcgaagga ttaagcgata aacaaattgg aagaattgcg
+     2821 cgcaatgccc agtttatagc ggattataac catttggtta gttccaccag tctagcaggt
+     2881 caagacccta aagcatggga gcttgagatg tttaatcgac tcaaaaagga cgcttcaaag
+     2941 tttaaaaaac gtccgattag ggattacttg aactaaaaat tgtctattac ctctataaat
+     3001 cctatcttaa aaacagaaaa gtggcttatc atgcttatgg tgagccactt tttttcgatt
+     3061 agaagtcatg tagtgacgca tattctatat atacgacata ctctgtcgtt cattcagaaa
+     3121 ttgtattgaa tgaagcagcc cgaagagcta atataggttt agattgatta gcatttgaca
+     3181 tatgttgtta tgaggattca actatcctga gccaactata tgtagtgcaa tacatctaag
+     3241 atgtgatagt tcggaaatga atgattcaca agagagaaaa tagaagtaga tggtaatcag
+     3301 tccagtcgac caaaactttt gactgatgac catctatcca ctttgcgaga aaaacgagga
+     3361 aatcttatgc gataaatatc acaccgtgat ggtgtttgat ttaaagctgt gattcacgct
+     3421 tttttggact tacgattaca gagtagagat gcctatttag tatatagctt agctataggt
+     3481 tgaccaatat tccgtacatc taggatacct cttaggtaca accaaaatca agctctatta
+     3541 ttgccttgaa taaaagctat aaatgcaatt aaccctgatt gtatatagct caaacaccta
+     3601 aaaacacaca aaaaaataga actgcttatt aattaatttt aagcggtatg ggttttcttt
+     3661 ggtttttttt ctgatattta agaggttgtt ttatgagtga tactaatgtt tcattgacac
+     3721 aagaagttat ctattctaaa tgtaaaaatt gcaaaaaatt ggagcgttgg agtcgtctta
+     3781 gaaaggcgat gctaacattc tttacgttgc ttattgtacc aacttgtcaa agcatgccat
+     3841 cagaagtttc tataacgtat attcagcatc agaacataca agtaactcac aatgttagtg
+     3901 agcaagcgaa tcaatcgaag tagatacgat cacttttccg cgtgtttcga aggctcaaat
+     3961 tttgatttta aaaatttgag cctttcttat cgtttttaga gtcaaaatca ccatttttag
+     4021 agtgtgatga aaagctcgaa aaaaaggatg taacagggga gattacccat ttttaatagt
+     4081 aatttctttg tttttagccc tctgcaagag tcctcgaaga gcgcagttac gagaaataat
+     4141 ataatacgcc tacttcgtgc tattatatta tttctctcac cgcgttgggg aaaccccaaa
+     4201 cccctcaagc tgttatctca ctggaca
+//
+

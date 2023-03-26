@@ -1,0 +1,116 @@
+LOCUS       MN657082                3336 bp    DNA     circular BCT 16-MAY-2020
+DEFINITION  Psychrobacter sp. strain ANT_H3 plasmid pA3H2, complete sequence.
+ACCESSION   MN657082
+VERSION     MN657082.1
+KEYWORDS    .
+SOURCE      Psychrobacter sp.
+  ORGANISM  Psychrobacter sp.
+            Bacteria; Proteobacteria; Gammaproteobacteria; Moraxellales;
+            Moraxellaceae; Psychrobacter.
+REFERENCE   1  (bases 1 to 3336)
+  AUTHORS   Romaniuk,K., Dabrowska,M., Gorecki,A., Radlinska,M., Decewicz,P.
+            and Dziewit,L.
+  TITLE     Diveristy of plasmids of Antarctic Psychrobacter spp. - insight
+            into the Psychrobacter multireplicon genome structure
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 3336)
+  AUTHORS   Romaniuk,K., Dabrowska,M., Gorecki,A., Radlinska,M., Decewicz,P.
+            and Dziewit,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-NOV-2019) Deparment of Bacterial Genetics, Institute
+            of Microbiology, Faculty of Biology, University of Warsaw,
+            Miecznikowa 1, Warsaw, mazovian 02-096, Poland
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Newbler v. v. 3.0
+            Sequencing Technology :: Sanger dideoxy sequencing; Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3336
+                     /organism="Psychrobacter sp."
+                     /mol_type="genomic DNA"
+                     /strain="ANT_H3"
+                     /isolation_source="soil sample from Arctowski Station"
+                     /db_xref="taxon:56811"
+                     /plasmid="pA3H2"
+                     /country="Antarctica:King George Island"
+                     /lat_lon="62.26 S 58.49 W"
+     CDS             357..1304
+                     /codon_start=1
+                     /transl_table=11
+                     /product="replication protein, RepB"
+                     /protein_id="QJS05632.1"
+                     /translation="MSKLVTKHNKLISASYSLGVPEQRIIFLAIVVAREQEKLIDARG
+                     LLQIHASSYQEQFKVEKHSAYKALKSAAKGLFDAHFEYDDIHEQTGKDANNFIRWVQK
+                     IRYINAAGMIELQFTDDVIPLITRLTEQYTEYDLKQVSELQSEYAIRLYELMMQWQSV
+                     GKTNQITIDNLRKKLGVKPEQYKQMCNFKTRVLDHAVKQINDYTDITVKYDQHKTGKT
+                     ITAISFIFKKKQILDPAKNKKRDSATPDLFHKMTDSQVKTFSAKLAALPELGSNAPIG
+                     KSTAEFAAIIANDLVDENKQAQYMPYLAKLGYQPKKHKT"
+     CDS             1574..1885
+                     /codon_start=1
+                     /transl_table=11
+                     /product="mobilization protein MobS"
+                     /protein_id="QJS05633.1"
+                     /translation="MSLLGGNDLKEQQKINELELKINREKQKLDKKLTRQKILLGAFL
+                     VDALEKDSVQGLKEYTADNLLSFLTRQTDKDLMVDLVKGLRGRVNIENNNEPKADFES
+                     L"
+     misc_feature    complement(2594..2911)
+                     /note="hypothetical protein, truncated"
+ORIGIN      
+        1 gtgataattt ctgatcctaa atttatcaaa aaaataagct tagcaaatct cttaaattgt
+       61 cttaaatttt gcgtttggta gcggattatt tagatacata ttcttaggtt ttggtgtttt
+      121 taatgttttt aaaagctttt aagagctttt acgtccgctg taacccttgc cagtcatagc
+      181 tattaacctc cataccctta cgtttagcga cccataccct tacgtttagc gacccatacc
+      241 cttacgttta gcgacccata cccttacgtt tagcgacctt ataattacaa tgtatttgaa
+      301 gttgtaattt aatgatatta tagtatttat atcgaccgtc aacgagcaag taaataatga
+      361 gcaagttagt gactaaacat aataaattaa tcagcgccag ttactcgctt ggcgtacctg
+      421 agcagcgcat tatcttcttg gccattgttg tagcaaggga acaagagaag ttgattgatg
+      481 ctagaggatt gctacaaatc catgcaagca gctaccaaga acaatttaag gtagaaaagc
+      541 attcagctta taaagcattg aaaagcgcgg ccaaaggctt atttgacgct cattttgaat
+      601 atgatgatat tcacgaacag acaggtaaag atgccaataa ttttatcaga tgggtacaaa
+      661 agataaggta tattaatgcg gctggaatga ttgagttaca gtttacagat gacgttatac
+      721 cattgataac gagactaacc gagcagtaca cagaatacga tctaaagcag gttagtgagt
+      781 tgcaaagcga atatgcaatc aggttgtatg agttgatgat gcaatggcag tctgttggta
+      841 aaaccaacca gataacgatt gataacttgc gtaaaaaact aggcgttaag cctgagcaat
+      901 ataagcagat gtgtaatttt aaaacgagag tactagatca tgctgtcaaa cagattaatg
+      961 attataccga cataacagtc aagtacgatc agcataagac aggtaaaact attaccgcca
+     1021 tatcatttat atttaagaaa aagcagatac ttgacccagc taagaataaa aaaagagata
+     1081 gtgccactcc tgacttgttc cataaaatga ctgatagcca agtaaaaaca ttcagcgcca
+     1141 agcttgctgc cttacctgaa cttggcagta atgcacctat tggtaaaagt actgctgagt
+     1201 ttgccgctat tattgctaat gatcttgtag acgaaaataa gcaagcccag tatatgccct
+     1261 atcttgcaaa gttaggttat caacctaaaa agcataagac atagcgatat tctaaaatca
+     1321 ctagataatc agtttttgct ttttttgcac tacatatttt cgtagtgctg ggggtgtggg
+     1381 ggttgacccc tgccgatgtt ttgattttat aaatgtgtga ccgttaggga taaacatttg
+     1441 taaagtcgaa aactcgcact tagtcagtgg gactcaacca tccgtcaatt aactatatca
+     1501 taaactgttg ttaggtattg ccgaagttgt tatagttgga ataactataa ttttgatgat
+     1561 ttaaggatat gatatgagct tacttggtgg taatgatttg aaagagcagc agaagattaa
+     1621 cgagcttgag cttaagataa atagggagaa acagaagtta gataagaagc tgacacgtca
+     1681 aaaaatacta ctcggtgctt ttttggtaga tgctttagag aaggattctg tacaggggct
+     1741 aaaggaatat acagctgaca acctattaag ttttctgacc agacagacag ataaggattt
+     1801 aatggtagat ttagtaaagg ggcttagggg tagagttaat attgaaaata ataatgaacc
+     1861 taaagcagac tttgaatcac tttaacaatt tgagagctta tatatgtcaa agcattttat
+     1921 ttcactaatt acggtattgg ctctaatatc agtttcaggt tgtgctacta caaataatat
+     1981 atctttagag aaaaaagaac ctaatgctgg gtttatggag caataccaat cgaatattgc
+     2041 taatcttaag aaatatgatc tttttagtta taaagttgag acatacgaac cgagaatttt
+     2101 ggttggttat tctggacgtt ttgaatggga taaaaattgc ctagagtttg tatcagacga
+     2161 ctccaataaa aaatatactc caatgtttcc aattcaaagc actacaataa acggtgatgg
+     2221 aactaggttc aacgtgtcag gaattaaatt ttctattggt gataatgtag tattgggggg
+     2281 atcttttaca aaagcatcag ataataaagt ttcattattt actgaaggta atcccgagtg
+     2341 cttgttagag gaaaccatga ctattattta gtctcaactt gtatgcccaa aaaatatata
+     2401 ttcagcgcag tctaaaggta tggttcccta gtgaggactt gaatttttgg ctgtgtgcta
+     2461 tatacgatag tagatacagc catcaagatt atgacagtgt acttggtggt gtacatgaaa
+     2521 ttaatacacc agacctaact tccatacatt tatctttctt cattctcggg catatataaa
+     2581 tcaccaccac tttctataat ttcgttacca attttttgca tataaaatca acactttctt
+     2641 catcttgccg atcaaactcg taaacaaaat tacctataaa ttcattaact ggatagttgt
+     2701 acttataaat aacaatacta atctcattct gaaggtcaaa aaggcttctg atgatctctt
+     2761 tagcgctatc ggcatctaga ttttctatag aagctaacct ttttttaatt tcgctttcat
+     2821 agtatctcaa tacagaattt atctctgatt tacttttagt gtataaatct aaagcctcta
+     2881 taagtgtaag aatgcgttca tccatcatca tcttctctca ttttaatcat ttacttatct
+     2941 tcagataact tattagggta taccccaagg gaaccagttg tttagcccct caaacctatt
+     3001 aacagactac ttaaaacaga ctggtataat ggaaccactt ataacagact gtttgaataa
+     3061 aaaagatggt tagtaacctc tttttagcaa aattctatat aactgtggtc gctccctctc
+     3121 cctttggtat cataatcgct ctctagcgct cgtttaagca tcttctaggc cctaattacc
+     3181 cataagtacc taataactgt cttagcatcc ctaacaagcc tataagacag tttgagtagc
+     3241 tgcttagcaa aacacttcaa caaactgaac ttttacagtc aatttgaaat gacagttaac
+     3301 tgtaaggtgc cactaatctt gaaccattcc taggat
+//
+

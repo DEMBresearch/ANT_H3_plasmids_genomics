@@ -1,0 +1,155 @@
+LOCUS       CM009135                2833 bp    DNA     circular CON 05-JAN-2018
+DEFINITION  Psychrobacter sp. MES7-P7E plasmid unnamed5, complete sequence,
+            whole genome shotgun sequence.
+ACCESSION   CM009135 PJBU01000000
+VERSION     CM009135.1
+DBLINK      BioProject: PRJNA420923
+            BioSample: SAMN08125774
+KEYWORDS    WGS.
+SOURCE      Psychrobacter sp. MES7-P7E
+  ORGANISM  Psychrobacter sp. MES7-P7E
+            Bacteria; Proteobacteria; Gammaproteobacteria; Moraxellales;
+            Moraxellaceae; Psychrobacter.
+REFERENCE   1  (bases 1 to 2833)
+  AUTHORS   Collins,E. and Ducluzeau,A.-L.
+  TITLE     Pharmacopeia of the Arctic Ocean
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2833)
+  AUTHORS   Collins,E. and Ducluzeau,A.-L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-DEC-2017) College of Fisheries and Ocean Sciences,
+            University of Alaska Fairbanks, 905 N Koyukuk Dr, Fairbanks, AK
+            99775, USA
+COMMENT     Bacteria available from Dr. Eric Collins, University of Alaska
+            Fairbanks.
+            Annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (released 2013). Information about the Pipeline can be
+            found here: https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Date          :: 20-NOV-2017
+            Assembly Method        :: Unicycler v. 0.3.1
+            Genome Representation  :: Full
+            Expected Final Version :: No
+            Genome Coverage        :: 14x
+            Sequencing Technology  :: Illumina MiSeq
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI
+            Annotation Date                   :: 12/07/2017 14:03:33
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS+
+            Annotation Software revision      :: 4.3
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 2,914
+            CDS (total)                       :: 2,866
+            Genes (coding)                    :: 2,811
+            CDS (coding)                      :: 2,811
+            Genes (RNA)                       :: 48
+            rRNAs                             :: 1, 1, 1 (5S, 16S, 23S)
+            complete rRNAs                    :: 1, 1, 1 (5S, 16S, 23S)
+            tRNAs                             :: 41
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 55
+            Pseudo Genes (ambiguous residues) :: 0 of 55
+            Pseudo Genes (frameshifted)       :: 13 of 55
+            Pseudo Genes (incomplete)         :: 37 of 55
+            Pseudo Genes (internal stop)      :: 12 of 55
+            Pseudo Genes (multiple problems)  :: 7 of 55
+            CRISPR Arrays                     :: 3
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2833
+                     /organism="Psychrobacter sp. MES7-P7E"
+                     /mol_type="genomic DNA"
+                     /strain="MES7-P7E"
+                     /isolation_source="sea ice"
+                     /db_xref="taxon:2058322"
+                     /plasmid="unnamed5"
+                     /country="USA: near Point Barrow, Alaska"
+                     /lat_lon="71.3 N 157 W"
+                     /collection_date="2007"
+     gene            complement(join(2404..2833,1..290))
+                     /locus_tag="CXF62_01285"
+     CDS             complement(join(2404..2833,1..290))
+                     /locus_tag="CXF62_01285"
+                     /inference="COORDINATES: protein motif:HMM:PF11726.6"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="PLT23541.1"
+                     /translation="MRDITLDKVIELDGKMLPINTQGKGMGCYVEVLKVIDEQLMAML
+                     SYHNKVLMVRVDIHMSPDFIASNNSVMTFYISKMRKWAQQNYDAKRLGFVWVRELCTS
+                     KKVHYHVIIMFDGNKLQDHREITAKSVQIAEHFSDKGYDYVPNNLKDCFHMIHRGDKL
+                     EYNTAFRHASYLAKERTKDKKHLSAKGKNYSASEIQPNIKRDKQELFTAADKGMTEFN
+                     YRPTRKPKKAKTMKYSDILDV"
+     gene            complement(1530..1766)
+                     /locus_tag="CXF62_01290"
+     CDS             complement(1530..1766)
+                     /locus_tag="CXF62_01290"
+                     /inference="COORDINATES: ab initio prediction:GeneMarkS+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="PLT23540.1"
+                     /translation="MPDIGVKPHQKNLITTKVVNAKIKPLTPIARKRNSLFFMAKSSR
+                     LVISWLFIHELFFNSKQKLSKHLELSLFWTPFGH"
+ORIGIN      
+        1 cgaacccaaa caaaacctaa tcgtttggca tcataattct gctgtgccca ctttctcatc
+       61 ttgcttatgt agaatgtcat aacgctatta ttagatgcta taaagtcagg tgacatatga
+      121 atatcaactc taaccataag cactttatta tgatatgaca gcatagccat taactgttca
+      181 tcaattactt ttaatacttc aacataacaa cccattcctt taccttgagt attgataggt
+      241 aacatcttac cgtctagctc tattacttta tctaaagtta tatctctcat aatcaattac
+      301 tcatagttac ataataataa tatacatgca taaaggacag tagtatctaa cctagttaaa
+      361 tcataattat cttagctata ctactactgt gttggggcgt gattttatct aaatttatca
+      421 gggtacagat ataacactca tatcttagca ggtttatcaa gtcattttag acttatattt
+      481 ataacttact aacctatttt aaactctaat taatctattt tttttgctct ctataagtaa
+      541 atattcaaac taatacttgt agtcaccatc aatactatcg actctctaat caatcaataa
+      601 gtactaatta actaacttct tttgttgttg ttatgccgat tatccagatt gaggttgagg
+      661 agttattggg aacactcgcc ctaaaggact cacagatgaa aacctgcaaa ccctttagtg
+      721 ctgttaccct tagatattac ccgtcaatcg gcagtatcgt cacaggaggt catcactgta
+      781 ccaagctgac cctgttatga ttacggctgg atagcaccgc ctagatacgc tcataaccgt
+      841 tatacgcttt ctatgctagc aagggcatac acacccaata tactgcttca aaagacaata
+      901 taaccactcg tagcgttgct cactatatct agaaacccca gtaatgagct tgccctatcc
+      961 ctaagaactg tcgtcaccta tctttgtcct accaccttct taggagggaa cagtttcagt
+     1021 gagtgaggat tttagtaacg attaataaac gctagagctt gaatagtttc agtgttttga
+     1081 attagaatag acccatacgg gcttatgctg gtcaaataac tcactcgata tgattatttg
+     1141 gtcgttacag gcgttcccca acatctgtaa ccgttgccta attaaactct aaaccctcct
+     1201 actacgtcaa gtgttagggg ggttttttgt tgatatatct aaaataatat tactaaaacc
+     1261 gattaccgta ccactgtagg gaaccgaagt ctaatattaa aacctaataa taccaacgct
+     1321 tgtagagata tattaagtaa ctttattatc tcagtgtaca tcacagtgta cttgtaatta
+     1381 atttttcgag tagattttag gttttagcta tcatgtatag gataaataga gtttttcaat
+     1441 ggacactaga attatcccca cgctttcctt gaggataatt gttgtctaag tgtctgttat
+     1501 tgaaatggtt tataaaataa ttcctttatt cagtgtccaa acggtgtcca aaaaagggat
+     1561 aattcgaggt gttttgatag tttttgtttt gaattgaaaa ataattcgtg tataaataac
+     1621 caacttatga cgagtctgga ggatttagcc atgaaaaata aggaatttct tttacgtgct
+     1681 attggagtta gcggtttaat ctttgcattg acaaccttag tggtgattag gttcttttga
+     1741 tgcggtttga ctcctatatc aggcatcaat ctatcctctg tagctctagt gttttagggg
+     1801 cttcttaata atcaataaac taatttaaca agaaatttaa caacatttag ccattgtgac
+     1861 tagctgataa cagacttttt caactaaaaa ctaaatacta aaaattaact atcggactgg
+     1921 atatacttgc cagcttagtt tgaatgatac ttatccttac tctctactat tacgtgagag
+     1981 cctatagaat ggctcagaat agccttgtaa tatctttcct atgcaatggt agctaaaagg
+     2041 tattaagacg cttaaaaaag gcttataatg gctctcaggt aatagttaag ataaataaag
+     2101 atatttaata aaaaaataat actctctata tttataatat gtctaactta tcgtgttgat
+     2161 atatcgctgt acgccttatg cttactaggt tattaatttt ttaataagta tcgttattag
+     2221 tcactatatc agtagtacct aaccatcttt aaacctatat aaaataaggg ttttatagtt
+     2281 tctaatacct taacttttaa ccctctttat atcttatatg cttatattac aagtacttac
+     2341 ataaactagg ctcaatacac gtctatgctt aacaccttac gactggctca aaaaggacgt
+     2401 aggtcacacg tctaaaatat ctgaatattt catagtcttt gctttctttg gtttacgtgt
+     2461 tggtctgtaa ttaaattctg tcataccttt atcagctgct gtgaatagct cttgtttatc
+     2521 tctttttata ttcggttgta tttcacttgc tgaatagttc ttacctttag cacttaaatg
+     2581 tttcttgtct ttggtacgtt cttttgcaag atatgatgca tgtctaaaag ctgtgttgta
+     2641 ttcaagttta tcccctctat gtatcatatg aaaacagtcc ttaaggttgt taggaacgta
+     2701 gtcataacct ttatcactaa agtgttctgc tatctgaaca ctctttgctg ttatctctct
+     2761 atggtcttgt aatttattac catcaaacat aataattaca tggtaatgaa cctttttaga
+     2821 agtacataac tca
+//
+
